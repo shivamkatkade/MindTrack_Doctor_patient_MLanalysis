@@ -338,14 +338,14 @@ MindTrack places strong emphasis on data privacy throughout the entire data life
 ### Analytics & Task Screens
 | Mood Distribution & Weekly Activity Analysis | Difficulty Levels & Mood Trend |
 |---|---|
-| ![Analytics 1](Diagrams/ML_Analysis_for_Doctor.png) | ![Analytics 2](screenshots/fig7_6_analytics2.png) |
+| ![Analytics 1](Diagrams/ML_Analysis_for_Doctor.png) | ![Analytics 2](Diagrams/ML_Analysis_for_doctor_2.png) |
 
 > *(Fig. 7.5 & 7.6 — Mood Distribution pie chart, Weekly Activity bar chart, Daily Average Mood Trend line graph)*
 
 ### Doctor Management Screens
 | Patient Overview (ML Analysis) | Create New Task |
 |---|---|
-| ![Doctor Overview](screenshots/fig7_7_patient_overview.png) | ![Create Task](screenshots/fig7_8_create_task.png) |
+| ![Doctor Overview](Diagrams/ML_Analysis_for_Doctor.png.png) | ![Create Task](Diagrams/Create_new_task.png) |
 
 > *(Fig. 7.7 — Shows 8 Completed / 22 Remaining / 30 Patients with ML Analysis Chart; Fig. 7.8 — Task creation form with patient selector, title, details, dates, reminder)*
 
