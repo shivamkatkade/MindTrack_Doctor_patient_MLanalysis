@@ -178,57 +178,23 @@ MindTrack operates through a **cloud-backed architecture** with the following ma
 ## 🔄 Data Flow Diagrams
 
 ### Level 0 — Context Diagram
+<p align="center">
+  <img src="Diagrams/DFD_Level_0.png" alt="MindTrack Use Case Diagram" width="600"/>
+</p>
 
-```
-                        ┌─────────────────┐
-                        │    ML Module    │
-                        └────────┬────────┘
-              Anonymised         │        Trend insights,
-              patient data       │        cluster results
-                        ┌────────▼────────┐
-   Mood logs,           │                 │     Trend reports,
-   journal entries ────►│   MindTrack     │────► predictions
-                        │    System       │
-   Tasks, trend ◄───────│                 │◄──── Task assignments,
-   analysis view        └─────────────────┘      analysis view
-        │                                               │
-        ▼                                               ▼
-    [Patient]                                    [Psychologist]
-```
 
 ### Level 1 — Process Decomposition
-
-```
-Patient ──► [P1: Authenticate User] ──► DS1: User Data
-              │
-Psychologist ─┤
-              │
-              ▼
-         [P2: Manage Tasks] ◄──► DS2: Task Data
-              │
-              ▼
-         [P3: Collect Patient Data] ──► DS3: Patient Data (Raw)
-              │
-              ▼
-         [P4: Anonymise Data] ──► DS4: Anon Data
-              │
-              ▼
-         [P5: Analyse Trends & Predict] ──► Psychologist Dashboard
-```
-
-> 📌 *Full DFD diagrams available in the project report (Fig. 6.1 and Fig. 6.2)*
+<p align="center">
+  <img src="Diagrams/DFD_level_1.png" alt="MindTrack Use Case Diagram" width="600"/>
+</p>
 
 ---
 
 ## 🎭 Use Case Diagram
 
 <p align="center">
-  <img src="diagrams/use_case_diagram.png" alt="MindTrack Use Case Diagram" width="600"/>
+  <img src="Diagrams/Use_case_diagram.png" alt="MindTrack Use Case Diagram" width="600"/>
 </p>
-
-
-
-> 📌 *Full use case diagram in project report (Fig. 6.3)*
 
 ---
 
@@ -358,7 +324,7 @@ MindTrack places strong emphasis on data privacy throughout the entire data life
 ### Login Screens
 | Doctor Login | Patient Login |
 |---|---|
-| ![Doctor Login](screenshots/fig7_1_doctor_login.png) | ![Patient Login](screenshots/fig7_2_patient_login.png) |
+| ![Doctor Login](Diagrams/Doctor_login.png) | ![Patient Login](Diagrams/Patient_Login.png) |
 
 > *(Fig. 7.1 — Doctor Login Screen, Fig. 7.2 — Patient Login Screen from project report)*
 
