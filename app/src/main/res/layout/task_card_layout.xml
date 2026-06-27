@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="14dp"
+    android:elevation="5dp">
+
+    <!-- Activity Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Activity Name: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvTitl"
+            android:textSize="14sp"
+            android:textColor="#1A237E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Title" />
+    </LinearLayout>
+
+    <!-- Description -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:text="Description: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:textSize="14sp"
+            android:textColor="#424242"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description" />
+    </LinearLayout>
+
+    <!-- Assigned Date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:text="Assigned Date: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:textSize="14sp"
+            android:textColor="#4E342E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19/11/2025" />
+    </LinearLayout>
+
+    <!-- Due Date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:text="Due Date: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDueDate"
+            android:textSize="14sp"
+            android:textColor="#4E342E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22/11/2025" />
+    </LinearLayout>
+
+    <!-- Patient -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:text="Patient: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvPatient"
+            android:textSize="14sp"
+            android:textColor="#004D40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Patients" />
+    </LinearLayout>
+
+    <!-- Reference -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:text="Reference: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvReference"
+            android:textSize="14sp"
+            android:textColor="#1E88E5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xyz.com" />
+    </LinearLayout>
+
+    <!-- Extra Notes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:text="Extra Notes: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvExtraNotes"
+            android:textSize="14sp"
+            android:textColor="#424242"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NA" />
+    </LinearLayout>
+
+    <!-- Reminder -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:text="Reminder Time: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvReminder"
+            android:textSize="14sp"
+            android:textColor="#6A1B9A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:16" />
+    </LinearLayout>
+
+    <!-- Repeat -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:text="Repeat: "
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvRepeat"
+            android:textSize="14sp"
+            android:textColor="#BF360C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="true" />
+    </LinearLayout>
+
+    <!-- Complete Task Button -->
+    <Button
+        android:id="@+id/btnCompleteTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complete Task"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="#1E88E5"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="18dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+</LinearLayout>

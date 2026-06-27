@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="#ECEFF1"
+    android:layout_marginBottom="8dp">
+
+    <!-- Patient Name -->
+    <TextView
+        android:id="@+id/tvPatientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- Mobile Number -->
+    <TextView
+        android:id="@+id/tvPatientMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile: 9876543210"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"/>
+
+    <!-- Appointment Date -->
+    <TextView
+        android:id="@+id/tvAppointmentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: 01-01-2025"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"/>
+
+    <!-- Appointment Time -->
+    <TextView
+        android:id="@+id/tvAppointmentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 10:00 AM"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"/>
+
+    <!-- Reason -->
+    <TextView
+        android:id="@+id/tvReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reason: Fever"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"/>
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/tvPatientStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pending"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Buttons Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:text="Accept"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnReject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F44336"
+            android:text="Reject"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnPending"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC107"
+            android:text="Pending"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mindtrack1">
+        <activity
+            android:name=".additionalanalysisdoctor"
+            android:exported="false" />
+        <activity
+            android:name=".commanproblemanalysisdoctor"
+            android:exported="false" />
+        <activity
+            android:name=".mlanalysisdoctor"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCompletedTasksActivitydoctor"
+            android:exported="false" />
+        <activity
+            android:name=".fillhomeworkuser"
+            android:exported="false" />
+        <activity
+            android:name=".task_card_layout"
+            android:exported="false" />
+        <activity
+            android:name=".CompleteTaskForm"
+            android:exported="false" />
+        <activity
+            android:name=".mlsuggestionpatient"
+            android:exported="false" />
+        <activity
+            android:name=".viewtask"
+            android:exported="false" />
+        <activity
+            android:name=".patientanalysisdoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Addhomeworkdoctor"
+            android:exported="false" />
+        <activity
+            android:name=".statusappointmentuser"
+            android:exported="false" />
+        <activity
+            android:name=".appoinmentstatusdoctor"
+            android:exported="false" />
+        <activity
+            android:name=".userappoinment"
+            android:exported="false" />
+        <activity
+            android:name=".homepatient"
+            android:exported="false" />
+        <activity
+            android:name=".registerpatient"
+            android:exported="false" />
+        <activity
+            android:name=".homedoctor"
+            android:exported="false" />
+        <activity
+            android:name=".registerdoctor"
+            android:exported="false" />
+        <activity
+            android:name=".patientloginactivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctorloginactivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
