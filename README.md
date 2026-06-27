@@ -123,40 +123,9 @@ The current mental health care workflow is largely **session-based and reactive*
 ## 🏗️ System Architecture
 
 MindTrack operates through a **cloud-backed architecture** with the following major components:
-
-```
-┌────────────────────────────────────────────────────────────────────┐
-│                          Cloud Backend                             │
-│                                                                    │
-│  ┌─────────────────┐          ┌─────────────────────────────────┐  │
-│  │  Patient App    │◄────────►│  Firebase Auth & Cloud Functions│  │
-│  └─────────────────┘          └─────────────────────────────────┘  │
-│                                            │                       │
-│  ┌─────────────────┐                       ▼                       │
-│  │ Psychologist App│◄──────►  ┌────────────────────────────────┐   │
-│  └─────────────────┘          │   Firestore Database (NoSQL)   │   │
-│                                └────────────────────────────────┘  │
-│                                            │                       │
-│                                ┌───────────▼──────────────────┐    │
-│                                │   Analytics Pipeline          │    │
-│                                │                              │    │
-│                                │  ┌────────────────────────┐  │    │
-│                                │  │  Data Anonymization    │  │    │
-│                                │  │       Layer            │  │    │
-│                                │  └───────────┬────────────┘  │    │
-│                                │              ▼               │    │
-│                                │  ┌────────────────────────┐  │    │
-│                                │  │   ML Analytics Module  │  │    │
-│                                │  │ (scikit-learn/TensorFlow│  │    │
-│                                │  └───────────┬────────────┘  │    │
-│                                │              ▼               │    │
-│                                │  ┌────────────────────────┐  │    │
-│                                │  │  Reporting Interface   │  │    │
-│                                │  │ (Psychologist Dashboard│  │    │
-│                                │  └────────────────────────┘  │    │
-│                                └──────────────────────────────┘    │
-└────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="Diagrams/System_Architecture.png" alt="MindTrack Use Case Diagram" width="600"/>
+</p>
 
 ### Architecture Components
 
