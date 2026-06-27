@@ -22,8 +22,7 @@
 |---|---|---|---|
 | Miss. Saloni Rajan Naik | 21 | EN21129121 | 25326 |
 | Mr. Shivam Dnyanoba Katkade | 22 | EN22158098 | 25347 |
-| Mr. Om Vijay Mahajan | 23 | EN22229362 | 25288 |
-| Mr. Sakib Husen Pendhari | 46 | EN22177597 | 25323 |
+
 
 **Project Guide:** Ms. A. M. Chavan, Department of CSE (Data Science)
 
