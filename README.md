@@ -222,13 +222,11 @@ Psychologist ─┤
 
 ## 🎭 Use Case Diagram
 
-```
-## 🎭 Use Case Diagram
-
 <p align="center">
   <img src="diagrams/use_case_diagram.png" alt="MindTrack Use Case Diagram" width="600"/>
 </p>
-```
+
+
 
 > 📌 *Full use case diagram in project report (Fig. 6.3)*
 
