@@ -345,7 +345,7 @@ MindTrack places strong emphasis on data privacy throughout the entire data life
 ### Doctor Management Screens
 | Patient Overview (ML Analysis) | Create New Task |
 |---|---|
-| ![Doctor Overview](Diagrams/ML_Analysis_for_Doctor.png.png) | ![Create Task](Diagrams/Create_new_task.png) |
+| ![Doctor Overview](Diagrams/ML_Analysis_for_Doctor.png) | ![Create Task](Diagrams/Create_new_task.png) |
 
 > *(Fig. 7.7 — Shows 8 Completed / 22 Remaining / 30 Patients with ML Analysis Chart; Fig. 7.8 — Task creation form with patient selector, title, details, dates, reminder)*
 
