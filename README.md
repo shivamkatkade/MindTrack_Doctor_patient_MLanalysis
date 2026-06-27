@@ -331,14 +331,14 @@ MindTrack places strong emphasis on data privacy throughout the entire data life
 ### Dashboard Screens
 | Psychologist Dashboard | Patient Dashboard |
 |---|---|
-| ![Psychologist Dashboard](screenshots/fig7_3_doctor_dashboard.png) | ![Patient Dashboard](screenshots/fig7_4_patient_dashboard.png) |
+| ![Psychologist Dashboard](Diagrams/doctor_homepage.png) | ![Patient Dashboard](Diagrams/Patient_homepage.png) |
 
 > *(Fig. 7.3 — Doctor Dashboard with Add Task, View Appointments, Patient Analysis; Fig. 7.4 — Patient Dashboard with Book Appointment, My Tasks, ML Health Suggestion)*
 
 ### Analytics & Task Screens
 | Mood Distribution & Weekly Activity Analysis | Difficulty Levels & Mood Trend |
 |---|---|
-| ![Analytics 1](screenshots/fig7_5_analytics.png) | ![Analytics 2](screenshots/fig7_6_analytics2.png) |
+| ![Analytics 1](Diagrams/ML_Analysis_for_Doctor.png) | ![Analytics 2](screenshots/fig7_6_analytics2.png) |
 
 > *(Fig. 7.5 & 7.6 — Mood Distribution pie chart, Weekly Activity bar chart, Daily Average Mood Trend line graph)*
 
