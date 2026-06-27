@@ -223,23 +223,11 @@ Psychologist ─┤
 ## 🎭 Use Case Diagram
 
 ```
-┌─────────────────────────── MindTrack System ──────────────────────────────┐
-│                                                                             │
-│  [Psychologist] ──► Register / Login                                       │
-│  [Patient]      ──► Register / Login                                       │
-│                                                                             │
-│  [Psychologist] ──► Assign Task to Patient   (Purple)                      │
-│  [Psychologist] ──► Monitor Patient Progress (Purple)                      │
-│  [Psychologist] ──► View Trend Reports       (Purple)                      │
-│                                                                             │
-│  [Patient] ──► Receive & View Tasks          (Green)                       │
-│  [Patient] ──► Submit Mood / Journal         (Green)                       │
-│  [Patient] ──► Track Task Completion         (Green)                       │
-│                                                                             │
-│  [ML System] ──► Analyse Anonymised Data     (Orange)                      │
-│  [ML System] ──► Generate Trend Predictions  (Orange)                      │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+## 🎭 Use Case Diagram
+
+<p align="center">
+  <img src="diagrams/use_case_diagram.png" alt="MindTrack Use Case Diagram" width="600"/>
+</p>
 ```
 
 > 📌 *Full use case diagram in project report (Fig. 6.3)*
