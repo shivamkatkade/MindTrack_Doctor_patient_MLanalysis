@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1033557820218",
+    "project_id": "mindtrack1-adbf5",
+    "storage_bucket": "mindtrack1-adbf5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033557820218:android:58a3e01f815b39b632c603",
+        "android_client_info": {
+          "package_name": "com.example.mindtrack1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2qcen4dcCgsIr8KW3A75kCXPe_Zub-sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
